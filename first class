@@ -1,0 +1,83 @@
+</DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <mata chaset="UTF-8">
+        <mata http-equiv="X-UA-Compatulble" IE="edge">
+            <mata name="viewport" content="wudth=device-whith, intial-scale=1.0">
+                <tittle>DOCUMENT</tittle>
+                <style>
+                    * {
+                        margin: 0;
+                    }
+
+                    #wrap {
+                        width: 1320px;
+                        background-color: pink;
+                        margin: 0 auto;
+                        text-aline: center;
+                    }
+
+                    header {
+                        width: 1320px;
+                        height: 100px;
+                        background-color: beige;
+                    }
+
+                    nav {
+                        width: 1320px;
+                        height: 100px;
+                        background-color: cadetblue;
+                    }
+
+                    .container {
+                        width: 1320px;
+                        display: flex;
+                    }
+
+                    .leftbox {
+                        width: 700px;
+                        background-color: rgb(136, 136, 136);
+                    }
+
+                    section {
+                        height: 300px;
+                    }
+
+                    article {
+                        width: 700px;
+                        height: 300px;
+                        background-color: coral;
+                    }
+
+                    aside {
+                        width: 620px;
+                        height: 600;
+                        background-color: black;
+                    }
+
+                    footer {
+                        width: 1320px;
+                        height: 100px;
+                        background-color: beige;
+                    }
+                </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>dudt</header>
+        <nav></nav>
+        <div class="container">
+            <div class="leftbox">
+                <section></section>
+                <article></article>
+            </div>
+            <aside></aside>
+        </div>
+            <footer></footer>
+    </div>
+</body>
+
+</html>
